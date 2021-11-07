@@ -8,52 +8,53 @@ const Home: NextPage = () => {
         <title>Liau Jian Jie</title>
         <meta
           name="description"
-          content="Hello, I'm Jian Jie—a software engineer passionate about product and performance, I create thoughtful and performant software experiences through code."
+          content="I’m a software engineer passionate about product and performance, I create thoughtful and performant software experiences."
         />
-        <link rel="icon" href="/favicon.ico" />
+        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
-      <main>
-        <h1>Liau Jian Jie</h1>
+      <main className="mx-auto my-10 md:my-32 px-8 md:px-0" style={{ maxWidth: 550 }}>
+        <section className="mb-10">
+          <h1 className="font-black text-4xl mb-6">Hi, I’m Jian Jie.</h1>
 
-        <p>
-          Hello, I'm Jian Jie—a software engineer passionate about product and
-          performance, I create thoughtful and performant software experiences
-          through code.
-        </p>
+          <h2 className="font-semibold text-2xl">
+            I’m a software engineer passionate about product and performance, I create thoughtful
+            and performant software experiences.
+          </h2>
+        </section>
 
-        <p>
-          Currently, I'm working on <a href="https://mobbin.design">Mobbin</a>{" "}
-          out of Singapore.
-        </p>
+        <section className="mb-10">
+          <p className="font-medium text-xl mb-4">
+            Currently, I’m leading the engineering team over at{" "}
+            <a href="https://mobbin.design">Mobbin</a>.
+          </p>
 
-        <p>
-          Here are some places you can find me:
+          <p className="font-medium text-xl mb-4">
+            My software-oriented interests include human-computer interactions (HCI), conflict-free
+            replicated data types (CRDT), and web technologies. I get excited about creating value
+            through building software.
+          </p>
+
+          <p className="font-medium text-xl mb-4">
+            In my free time, I consume content from random topics—such as semiconductors fabrication
+            and Soviet history. I’m also actively learning the Russian language.
+          </p>
+
+          <p className="font-medium text-xl mb-4">
+            You can find me on <a href="https://github.com/liaujianjie">GitHub</a>,{" "}
+            <a href="https://twitter.com/liaujianjie">Twitter</a>, or as <code>liaujianjie</code> on
+            other corners of the internet. You can also reach me via email at{" "}
+            <a href="mailto:jianjie@mobbin.design">jianjie@mobbin.design</a>.
+          </p>
+        </section>
+
+        {/* <footer className="text-gray-500">
           <ul>
             <li>
-              <a href="https://github.com/liaujianjie">GitHub</a>
-            </li>
-            <li>
-              <a href="https://twitter.com/liaujianjie">Twitter</a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/liaujianjie/">LinkedIn</a>
+              <a href="/pgp">PGP Public Key</a>
             </li>
           </ul>
-        </p>
-
-        <p>
-          Feel free to reach me via email at:
-          <code>jianjie[at]mobbin.design</code>
-        </p>
-
-        {/* TODO: add PGP public key */}
-        {/* <p >
-          Other stuff:
-          <ul>
-            <li>PGP public key</li>
-          </ul>
-        </p> */}
+        </footer> */}
       </main>
     </div>
   );

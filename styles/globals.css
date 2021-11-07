@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body {
+  @apply bg-gray-900 text-white;
+  @apply antialiased;
+}
+
+a {
+  @apply text-yellow-400 hover:text-yellow-200 transition-colors;
+}
+
+::selection {
+  @apply bg-gray-800;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("/fonts/Manrope[wght].ttf") format("truetype");
+  font-weight: 125 950;
+  font-stretch: 75% 125%;
+  font-style: normal;
+}
