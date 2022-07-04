@@ -36,8 +36,8 @@ const Home: NextPage = () => {
           </p>
 
           <p className="font-medium text-xl mb-4">
-            In my free time, I consume content from random topics—such as semiconductors fabrication
-            and Soviet history. I’m also actively learning the Russian language.
+            In my free time, I consume content from random topics from semiconductor fabrication to
+            Soviet history. I’m also actively learning the Russian language.
           </p>
 
           <p className="font-medium text-xl mb-4">
