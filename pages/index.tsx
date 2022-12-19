@@ -42,9 +42,12 @@ export default function HomePage() {
 
           <p className="font-medium text-xl mb-4">
             You can find me on <a href="https://github.com/liaujianjie">GitHub</a>,{" "}
-            <a href="https://twitter.com/liaujianjie">Twitter</a>, or as <code>liaujianjie</code> on
-            other corners of the internet. You can also reach me via email at{" "}
-            <a href="mailto:jianjie@mobbin.com">jianjie@mobbin.com</a>.
+            <a href="https://twitter.com/liaujianjie">Twitter</a>,{" "}
+            <a rel="me" href="https://mas.to/@jianjie">
+              Mastodon
+            </a>
+            , or as <code>liaujianjie</code> on other corners of the internet. You can also reach me
+            via email at <a href="mailto:jianjie@mobbin.com">jianjie@mobbin.com</a>.
           </p>
         </section>
 
