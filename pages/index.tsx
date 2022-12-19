@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 
-function HomePage() {
+export default function HomePage() {
   return (
     <div>
       <Head>
@@ -59,5 +59,3 @@ function HomePage() {
     </div>
   );
 }
-
-export default Home;
