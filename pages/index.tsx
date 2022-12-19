@@ -30,14 +30,14 @@ const Home: NextPage = () => {
           </p>
 
           <p className="font-medium text-xl mb-4">
-            My software-oriented interests include human-computer interactions (HCI), conflict-free
-            replicated data types (CRDT), and web technologies. I get excited about creating value
-            through building software.
+            My software-oriented interests include machine learning, human-computer interactions
+            (HCI), conflict-free replicated data types (CRDT), and web technologies. I get excited
+            about creating value through building software.
           </p>
 
           <p className="font-medium text-xl mb-4">
             In my free time, I consume content from random topics from semiconductor fabrication to
-            Soviet history. I’m also actively learning the Russian language.
+            public policy.
           </p>
 
           <p className="font-medium text-xl mb-4">
