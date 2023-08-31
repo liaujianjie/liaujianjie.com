@@ -10,7 +10,7 @@ export default function HomePage() {
           name="description"
           content="I’m passionate about creating value for the world through crafting thoughtful and performant software."
         />
-        {/* <link rel="icon" href="/favicon.ico" /> */}
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="mx-auto my-10 md:my-32 px-8 md:px-0" style={{ maxWidth: 550 }}>
