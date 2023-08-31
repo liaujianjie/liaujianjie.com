@@ -8,7 +8,7 @@ export default function HomePage() {
         <title>Liau Jian Jie</title>
         <meta
           name="description"
-          content="I’m passionate about creating value for the world through crafting thoughtful and performant software."
+          content="I create value for the world through crafting thoughtful and performant software."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -18,8 +18,7 @@ export default function HomePage() {
           <h1 className="font-black text-4xl mb-6">Hi, I’m Jian Jie.</h1>
 
           <h2 className="font-semibold text-2xl">
-            I’m passionate about creating value for the world through crafting thoughtful and
-            performant software.
+            I create value for the world through crafting thoughtful and performant software.
           </h2>
         </section>
 
