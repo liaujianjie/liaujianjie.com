@@ -24,7 +24,7 @@ export default function HomePage() {
 
         <section className="mb-10">
           <p className="font-medium text-xl mb-4">
-            Currently, I’m the CTO and co-founder of <a href="https://mobbin.com">Mobbin</a>.
+            I’m the CTO and co-founder of <a href="https://mobbin.com">Mobbin</a>.
           </p>
 
           <p className="font-medium text-xl mb-4">
